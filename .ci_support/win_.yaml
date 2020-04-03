@@ -1,0 +1,40 @@
+boost:
+- 1.70.0
+c_compiler:
+- vs2017
+channel_sources:
+- ros-forge/label/noetic-staging,conda-forge,defaults
+channel_targets:
+- ros-forge noetic-staging
+cxx_compiler:
+- vs2017
+freetype:
+- 2.9.1
+libcurl:
+- '7.64'
+numpy:
+- '1.14'
+openssl:
+- 1.1.1
+pin_run_as_build:
+  boost:
+    max_pin: x.x.x
+  freetype:
+    max_pin: x
+  libcurl:
+    max_pin: x
+  openssl:
+    max_pin: x.x.x
+  python:
+    min_pin: x.x
+    max_pin: x.x
+  qt:
+    max_pin: x.x
+  zlib:
+    max_pin: x.x
+python:
+- '3.7'
+qt:
+- '5.12'
+zlib:
+- '1.2'
