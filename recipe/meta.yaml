@@ -844,7 +844,7 @@ outputs:
         - tinyxml
         - tinyxml2
         - uncrustify
-        - yaml
+        - yaml-cpp
         - zlib
       run:
         - assimp
@@ -890,7 +890,7 @@ outputs:
         - tinyxml
         - tinyxml2
         - uncrustify
-        - yaml
+        - yaml-cpp
         - zlib
 
 about:
