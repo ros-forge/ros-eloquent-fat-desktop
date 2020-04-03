@@ -127,7 +127,7 @@ python3-flake8:
 python3-pytest-mock:
   conda-forge: [pytest-mock]
 yaml:
-  conda-forge: [yaml-cpp]
+  conda-forge: [yaml, yaml-cpp]
 asio:
   conda-forge: [asio]
 git:
