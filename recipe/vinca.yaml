@@ -1,0 +1,20 @@
+# meta.yaml root package name
+name: ros-eloquent-fat-desktop
+
+ros_distro: eloquent
+
+fat_archive: true
+
+# mapping for package keys
+conda_index:
+  - conda-forge.yaml
+
+packages_skip_by_deps:
+  - rmw_opensplice_cpp
+  - rmw_connext_cpp
+  - rmw_cyclonedds_cpp
+
+packages_select_by_deps:
+  - desktop
+
+patch_dir: patch
