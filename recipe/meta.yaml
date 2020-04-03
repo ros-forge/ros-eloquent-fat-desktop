@@ -162,9 +162,6 @@ source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
     git_rev: release/eloquent/composition_interfaces/0.8.0-1
     folder: src/ros-eloquent-composition-interfaces
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-    git_rev: release/eloquent/connext_cmake_module/0.8.4-1
-    folder: src/ros-eloquent-connext-cmake-module
   - git_url: https://github.com/ros2-gbp/console_bridge_vendor-release.git
     git_rev: release/eloquent/console_bridge_vendor/1.2.0-1
     folder: src/ros-eloquent-console-bridge-vendor
@@ -324,9 +321,6 @@ source:
   - git_url: https://github.com/ros2-gbp/resource_retriever-release.git
     git_rev: release/eloquent/libcurl_vendor/2.2.1-1
     folder: src/ros-eloquent-libcurl-vendor
-  - git_url: https://github.com/ros2-gbp/libyaml_vendor-release.git
-    git_rev: release/eloquent/libyaml_vendor/1.0.0-1
-    folder: src/ros-eloquent-libyaml-vendor
   - git_url: https://github.com/ros2-gbp/demos-release.git
     git_rev: release/eloquent/lifecycle/0.8.4-1
     folder: src/ros-eloquent-lifecycle
@@ -345,9 +339,6 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/nav_msgs/0.8.1-1
     folder: src/ros-eloquent-nav-msgs
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
-    git_rev: release/eloquent/opensplice_cmake_module/0.8.1-1
-    folder: src/ros-eloquent-opensplice-cmake-module
   - git_url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
     git_rev: release/eloquent/orocos_kdl/3.2.1-1
     folder: src/ros-eloquent-orocos-kdl
@@ -363,9 +354,6 @@ source:
   - git_url: https://github.com/ros2-gbp/pcl_msgs-release.git
     git_rev: release/eloquent/pcl_msgs/1.0.0-1
     folder: src/ros-eloquent-pcl-msgs
-  - git_url: https://github.com/ros2-gbp/demos-release.git
-    git_rev: release/eloquent/pendulum_control/0.8.4-1
-    folder: src/ros-eloquent-pendulum-control
   - git_url: https://github.com/ros2-gbp/demos-release.git
     git_rev: release/eloquent/pendulum_msgs/0.8.4-1
     folder: src/ros-eloquent-pendulum-msgs
@@ -445,14 +433,8 @@ source:
     git_rev: release/eloquent/rmw/0.8.1-1
     folder: src/ros-eloquent-rmw
   - git_url: https://github.com/ros2-gbp/rmw_connext-release.git
-    git_rev: release/eloquent/rmw_connext_cpp/0.8.1-1
-    folder: src/ros-eloquent-rmw-connext-cpp
-  - git_url: https://github.com/ros2-gbp/rmw_connext-release.git
     git_rev: release/eloquent/rmw_connext_shared_cpp/0.8.1-1
     folder: src/ros-eloquent-rmw-connext-shared-cpp
-  - git_url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
-    git_rev: release/eloquent/rmw_cyclonedds_cpp/0.4.4-1
-    folder: src/ros-eloquent-rmw-cyclonedds-cpp
   - git_url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
     git_rev: release/eloquent/rmw_fastrtps_cpp/0.8.1-1
     folder: src/ros-eloquent-rmw-fastrtps-cpp
@@ -465,9 +447,6 @@ source:
   - git_url: https://github.com/ros2-gbp/rmw-release.git
     git_rev: release/eloquent/rmw_implementation_cmake/0.8.1-1
     folder: src/ros-eloquent-rmw-implementation-cmake
-  - git_url: https://github.com/ros2-gbp/rmw_opensplice-release.git
-    git_rev: release/eloquent/rmw_opensplice_cpp/0.8.1-1
-    folder: src/ros-eloquent-rmw-opensplice-cpp
   - git_url: https://github.com/ros2-gbp/robot_state_publisher-release.git
     git_rev: release/eloquent/robot_state_publisher/2.3.1-1
     folder: src/ros-eloquent-robot-state-publisher
@@ -573,12 +552,6 @@ source:
   - git_url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
     git_rev: release/eloquent/rosidl_typesupport_c/0.8.0-2
     folder: src/ros-eloquent-rosidl-typesupport-c
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-    git_rev: release/eloquent/rosidl_typesupport_connext_c/0.8.4-1
-    folder: src/ros-eloquent-rosidl-typesupport-connext-c
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
-    git_rev: release/eloquent/rosidl_typesupport_connext_cpp/0.8.4-1
-    folder: src/ros-eloquent-rosidl-typesupport-connext-cpp
   - git_url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
     git_rev: release/eloquent/rosidl_typesupport_cpp/0.8.0-2
     folder: src/ros-eloquent-rosidl-typesupport-cpp
@@ -597,12 +570,6 @@ source:
   - git_url: https://github.com/ros2-gbp/rosidl-release.git
     git_rev: release/eloquent/rosidl_typesupport_introspection_cpp/0.8.2-1
     folder: src/ros-eloquent-rosidl-typesupport-introspection-cpp
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
-    git_rev: release/eloquent/rosidl_typesupport_opensplice_c/0.8.1-1
-    folder: src/ros-eloquent-rosidl-typesupport-opensplice-c
-  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
-    git_rev: release/eloquent/rosidl_typesupport_opensplice_cpp/0.8.1-1
-    folder: src/ros-eloquent-rosidl-typesupport-opensplice-cpp
   - git_url: https://github.com/ros2-gbp/rqt_action-release.git
     git_rev: release/eloquent/rqt_action/1.0.1-1
     folder: src/ros-eloquent-rqt-action
@@ -660,9 +627,6 @@ source:
   - git_url: https://github.com/ros2-gbp/rqt_topic-release.git
     git_rev: release/eloquent/rqt_topic/1.1.0-1
     folder: src/ros-eloquent-rqt-topic
-  - git_url: https://github.com/ros2-gbp/realtime_support-release.git
-    git_rev: release/eloquent/rttest/0.8.2-1
-    folder: src/ros-eloquent-rttest
   - git_url: https://github.com/ros2-gbp/rviz-release.git
     git_rev: release/eloquent/rviz2/7.0.4-1
     folder: src/ros-eloquent-rviz2
@@ -720,9 +684,6 @@ source:
   - git_url: https://github.com/ros2-gbp/test_interface_files-release.git
     git_rev: release/eloquent/test_interface_files/0.8.0-1
     folder: src/ros-eloquent-test-interface-files
-  - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
-    git_rev: release/eloquent/test_msgs/0.8.0-1
-    folder: src/ros-eloquent-test-msgs
   - git_url: https://github.com/ros2-gbp/geometry2-release.git
     git_rev: release/eloquent/tf2/0.12.5-1
     folder: src/ros-eloquent-tf2
@@ -756,12 +717,6 @@ source:
   - git_url: https://github.com/ros2-gbp/tinyxml_vendor-release.git
     git_rev: release/eloquent/tinyxml_vendor/0.7.0-1
     folder: src/ros-eloquent-tinyxml-vendor
-  - git_url: https://github.com/ros2-gbp/tlsf-release.git
-    git_rev: release/eloquent/tlsf/0.5.0-1
-    folder: src/ros-eloquent-tlsf
-  - git_url: https://github.com/ros2-gbp/realtime_support-release.git
-    git_rev: release/eloquent/tlsf_cpp/0.8.2-1
-    folder: src/ros-eloquent-tlsf-cpp
   - git_url: https://github.com/ros2-gbp/demos-release.git
     git_rev: release/eloquent/topic_monitor/0.8.4-1
     folder: src/ros-eloquent-topic-monitor

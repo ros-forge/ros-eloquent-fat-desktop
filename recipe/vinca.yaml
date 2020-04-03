@@ -8,6 +8,7 @@ fat_archive: true
 # mapping for package keys
 conda_index:
   - conda-forge.yaml
+  - packages-ignore.yaml
 
 packages_skip_by_deps:
 
