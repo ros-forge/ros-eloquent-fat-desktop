@@ -19,14 +19,131 @@ source:
     git_rev: release/eloquent/actionlib_msgs/0.8.1-1
     folder: src/ros-eloquent-actionlib-msgs
   - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
     git_rev: release/eloquent/ament_cmake_auto/0.8.2-1
     folder: src/ros-eloquent-ament-cmake-auto
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_copyright/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-copyright
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_core/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-core
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_cppcheck/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-cppcheck
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_cpplint/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-cpplint
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_definitions/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-definitions
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_dependencies/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-dependencies
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_include_directories/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-include-directories
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_interfaces/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-interfaces
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_libraries/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-libraries
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_export_link_flags/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-export-link-flags
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_flake8/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-flake8
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_gmock/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-gmock
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_gtest/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-gtest
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_include_directories/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-include-directories
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_libraries/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-libraries
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_lint_cmake/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-lint-cmake
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_pep257/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-pep257
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_pytest/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-pytest
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_python/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-python
+  - git_url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+    git_rev: release/eloquent/ament_cmake_ros/0.8.0-1
+    folder: src/ros-eloquent-ament-cmake-ros
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_target_dependencies/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-target-dependencies
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_test/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-test
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_uncrustify/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-uncrustify
+  - git_url: https://github.com/ros2-gbp/ament_cmake-release.git
+    git_rev: release/eloquent/ament_cmake_version/0.8.2-1
+    folder: src/ros-eloquent-ament-cmake-version
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cmake_xmllint/0.8.1-1
+    folder: src/ros-eloquent-ament-cmake-xmllint
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_copyright/0.8.1-1
+    folder: src/ros-eloquent-ament-copyright
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cppcheck/0.8.1-1
+    folder: src/ros-eloquent-ament-cppcheck
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_cpplint/0.8.1-1
+    folder: src/ros-eloquent-ament-cpplint
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_flake8/0.8.1-1
+    folder: src/ros-eloquent-ament-flake8
   - git_url: https://github.com/ros2-gbp/ament_index-release.git
     git_rev: release/eloquent/ament_index_cpp/0.7.2-1
     folder: src/ros-eloquent-ament-index-cpp
+  - git_url: https://github.com/ros2-gbp/ament_index-release.git
+    git_rev: release/eloquent/ament_index_python/0.7.2-1
+    folder: src/ros-eloquent-ament-index-python
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint/0.8.1-1
+    folder: src/ros-eloquent-ament-lint
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint_auto/0.8.1-1
+    folder: src/ros-eloquent-ament-lint-auto
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint_cmake/0.8.1-1
+    folder: src/ros-eloquent-ament-lint-cmake
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_lint_common/0.8.1-1
+    folder: src/ros-eloquent-ament-lint-common
   - git_url: https://github.com/ros2-gbp/ament_lint-release.git
     git_rev: release/eloquent/ament_mypy/0.8.1-1
     folder: src/ros-eloquent-ament-mypy
+  - git_url: https://github.com/ros2-gbp/ament_package-release.git
+    git_rev: release/eloquent/ament_package/0.8.8-1
+    folder: src/ros-eloquent-ament-package
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_pep257/0.8.1-1
+    folder: src/ros-eloquent-ament-pep257
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_uncrustify/0.8.1-1
+    folder: src/ros-eloquent-ament-uncrustify
+  - git_url: https://github.com/ros2-gbp/ament_lint-release.git
+    git_rev: release/eloquent/ament_xmllint/0.8.1-1
+    folder: src/ros-eloquent-ament-xmllint
   - git_url: https://github.com/ros2-gbp/angles-release.git
     git_rev: release/eloquent/angles/1.12.2-1
     folder: src/ros-eloquent-angles
@@ -45,12 +162,21 @@ source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
     git_rev: release/eloquent/composition_interfaces/0.8.0-1
     folder: src/ros-eloquent-composition-interfaces
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+    git_rev: release/eloquent/connext_cmake_module/0.8.4-1
+    folder: src/ros-eloquent-connext-cmake-module
   - git_url: https://github.com/ros2-gbp/console_bridge_vendor-release.git
     git_rev: release/eloquent/console_bridge_vendor/1.2.0-1
     folder: src/ros-eloquent-console-bridge-vendor
   - git_url: https://github.com/ros2-gbp/vision_opencv-release.git
     git_rev: release/eloquent/cv_bridge/2.1.4-1
     folder: src/ros-eloquent-cv-bridge
+  - git_url: https://github.com/ros2-gbp/cyclonedds-release.git
+    git_rev: release/eloquent/cyclonedds/0.1.0-7
+    folder: src/ros-eloquent-cyclonedds
+  - git_url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
+    git_rev: release/eloquent/cyclonedds_cmake_module/0.4.4-1
+    folder: src/ros-eloquent-cyclonedds-cmake-module
   - git_url: https://github.com/ros2-gbp/demos-release.git
     git_rev: release/eloquent/demo_nodes_cpp/0.8.4-1
     folder: src/ros-eloquent-demo-nodes-cpp
@@ -69,6 +195,9 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/diagnostic_msgs/0.8.1-1
     folder: src/ros-eloquent-diagnostic-msgs
+  - git_url: https://github.com/ros2-gbp/ament_cmake_ros-release.git
+    git_rev: release/eloquent/domain_coordinator/0.8.0-1
+    folder: src/ros-eloquent-domain-coordinator
   - git_url: https://github.com/ros2-gbp/demos-release.git
     git_rev: release/eloquent/dummy_map_server/0.8.4-1
     folder: src/ros-eloquent-dummy-map-server
@@ -147,6 +276,12 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/geometry_msgs/0.8.1-1
     folder: src/ros-eloquent-geometry-msgs
+  - git_url: https://github.com/ros2-gbp/googletest-release.git
+    git_rev: release/eloquent/gmock_vendor/1.8.9000-1
+    folder: src/ros-eloquent-gmock-vendor
+  - git_url: https://github.com/ros2-gbp/googletest-release.git
+    git_rev: release/eloquent/gtest_vendor/1.8.9000-1
+    folder: src/ros-eloquent-gtest-vendor
   - git_url: https://github.com/ros2-gbp/vision_opencv-release.git
     git_rev: release/eloquent/image_geometry/2.1.4-1
     folder: src/ros-eloquent-image-geometry
@@ -171,9 +306,18 @@ source:
   - git_url: https://github.com/ros2-gbp/laser_geometry-release.git
     git_rev: release/eloquent/laser_geometry/2.1.1-1
     folder: src/ros-eloquent-laser-geometry
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch/0.9.6-1
+    folder: src/ros-eloquent-launch
   - git_url: https://github.com/ros2-gbp/launch_ros-release.git
     git_rev: release/eloquent/launch_ros/0.9.5-1
     folder: src/ros-eloquent-launch-ros
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch_testing/0.9.6-1
+    folder: src/ros-eloquent-launch-testing
+  - git_url: https://github.com/ros2-gbp/launch-release.git
+    git_rev: release/eloquent/launch_testing_ament_cmake/0.9.6-1
+    folder: src/ros-eloquent-launch-testing-ament-cmake
   - git_url: https://github.com/ros2-gbp/launch_ros-release.git
     git_rev: release/eloquent/launch_testing_ros/0.9.5-1
     folder: src/ros-eloquent-launch-testing-ros
@@ -201,9 +345,18 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/nav_msgs/0.8.1-1
     folder: src/ros-eloquent-nav-msgs
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+    git_rev: release/eloquent/opensplice_cmake_module/0.8.1-1
+    folder: src/ros-eloquent-opensplice-cmake-module
   - git_url: https://github.com/ros2-gbp/orocos_kinematics_dynamics-release.git
     git_rev: release/eloquent/orocos_kdl/3.2.1-1
     folder: src/ros-eloquent-orocos-kdl
+  - git_url: https://github.com/ros2-gbp/osrf_pycommon-release.git
+    git_rev: release/eloquent/osrf_pycommon/0.1.9-2
+    folder: src/ros-eloquent-osrf-pycommon
+  - git_url: https://github.com/ros2-gbp/osrf_testings_tools_cpp-release.git
+    git_rev: release/eloquent/osrf_testing_tools_cpp/1.2.2-1
+    folder: src/ros-eloquent-osrf-testing-tools-cpp
   - git_url: https://github.com/ros2-gbp/perception_pcl-release.git
     git_rev: release/eloquent/pcl_conversions/2.1.0-1
     folder: src/ros-eloquent-pcl-conversions
@@ -222,6 +375,9 @@ source:
   - git_url: https://github.com/ros2-gbp/poco_vendor-release.git
     git_rev: release/eloquent/poco_vendor/1.2.0-1
     folder: src/ros-eloquent-poco-vendor
+  - git_url: https://github.com/ros2-gbp/python_cmake_module-release.git
+    git_rev: release/eloquent/python_cmake_module/0.8.0-2
+    folder: src/ros-eloquent-python-cmake-module
   - git_url: https://github.com/ros2-gbp/python_qt_binding-release.git
     git_rev: release/eloquent/python_qt_binding/1.0.3-1
     folder: src/ros-eloquent-python-qt-binding
@@ -276,9 +432,27 @@ source:
   - git_url: https://github.com/ros2-gbp/rclpy-release.git
     git_rev: release/eloquent/rclpy/0.8.4-1
     folder: src/ros-eloquent-rclpy
+  - git_url: https://github.com/ros2-gbp/rcpputils-release.git
+    git_rev: release/eloquent/rcpputils/0.2.1-1
+    folder: src/ros-eloquent-rcpputils
+  - git_url: https://github.com/ros2-gbp/rcutils-release.git
+    git_rev: release/eloquent/rcutils/0.8.4-1
+    folder: src/ros-eloquent-rcutils
   - git_url: https://github.com/ros2-gbp/resource_retriever-release.git
     git_rev: release/eloquent/resource_retriever/2.2.1-1
     folder: src/ros-eloquent-resource-retriever
+  - git_url: https://github.com/ros2-gbp/rmw-release.git
+    git_rev: release/eloquent/rmw/0.8.1-1
+    folder: src/ros-eloquent-rmw
+  - git_url: https://github.com/ros2-gbp/rmw_connext-release.git
+    git_rev: release/eloquent/rmw_connext_cpp/0.8.1-1
+    folder: src/ros-eloquent-rmw-connext-cpp
+  - git_url: https://github.com/ros2-gbp/rmw_connext-release.git
+    git_rev: release/eloquent/rmw_connext_shared_cpp/0.8.1-1
+    folder: src/ros-eloquent-rmw-connext-shared-cpp
+  - git_url: https://github.com/ros2-gbp/rmw_cyclonedds-release.git
+    git_rev: release/eloquent/rmw_cyclonedds_cpp/0.4.4-1
+    folder: src/ros-eloquent-rmw-cyclonedds-cpp
   - git_url: https://github.com/ros2-gbp/rmw_fastrtps-release.git
     git_rev: release/eloquent/rmw_fastrtps_cpp/0.8.1-1
     folder: src/ros-eloquent-rmw-fastrtps-cpp
@@ -291,6 +465,9 @@ source:
   - git_url: https://github.com/ros2-gbp/rmw-release.git
     git_rev: release/eloquent/rmw_implementation_cmake/0.8.1-1
     folder: src/ros-eloquent-rmw-implementation-cmake
+  - git_url: https://github.com/ros2-gbp/rmw_opensplice-release.git
+    git_rev: release/eloquent/rmw_opensplice_cpp/0.8.1-1
+    folder: src/ros-eloquent-rmw-opensplice-cpp
   - git_url: https://github.com/ros2-gbp/robot_state_publisher-release.git
     git_rev: release/eloquent/robot_state_publisher/2.3.1-1
     folder: src/ros-eloquent-robot-state-publisher
@@ -363,21 +540,45 @@ source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
     git_rev: release/eloquent/rosgraph_msgs/0.8.0-1
     folder: src/ros-eloquent-rosgraph-msgs
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_adapter/0.8.2-1
+    folder: src/ros-eloquent-rosidl-adapter
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_cmake/0.8.2-1
+    folder: src/ros-eloquent-rosidl-cmake
   - git_url: https://github.com/ros2-gbp/rosidl_defaults-release.git
     git_rev: release/eloquent/rosidl_default_generators/0.8.0-1
     folder: src/ros-eloquent-rosidl-default-generators
   - git_url: https://github.com/ros2-gbp/rosidl_defaults-release.git
     git_rev: release/eloquent/rosidl_default_runtime/0.8.0-1
     folder: src/ros-eloquent-rosidl-default-runtime
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_generator_c/0.8.2-1
+    folder: src/ros-eloquent-rosidl-generator-c
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_generator_cpp/0.8.2-1
+    folder: src/ros-eloquent-rosidl-generator-cpp
+  - git_url: https://github.com/ros2-gbp/rosidl_dds-release.git
+    git_rev: release/eloquent/rosidl_generator_dds_idl/0.7.1-1
+    folder: src/ros-eloquent-rosidl-generator-dds-idl
   - git_url: https://github.com/ros2-gbp/rosidl_python-release.git
     git_rev: release/eloquent/rosidl_generator_py/0.8.1-1
     folder: src/ros-eloquent-rosidl-generator-py
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_parser/0.8.2-1
+    folder: src/ros-eloquent-rosidl-parser
   - git_url: https://github.com/ros2-gbp/rosidl_runtime_py-release.git
     git_rev: release/eloquent/rosidl_runtime_py/0.8.2-1
     folder: src/ros-eloquent-rosidl-runtime-py
   - git_url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
     git_rev: release/eloquent/rosidl_typesupport_c/0.8.0-2
     folder: src/ros-eloquent-rosidl-typesupport-c
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+    git_rev: release/eloquent/rosidl_typesupport_connext_c/0.8.4-1
+    folder: src/ros-eloquent-rosidl-typesupport-connext-c
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_connext-release.git
+    git_rev: release/eloquent/rosidl_typesupport_connext_cpp/0.8.4-1
+    folder: src/ros-eloquent-rosidl-typesupport-connext-cpp
   - git_url: https://github.com/ros2-gbp/rosidl_typesupport-release.git
     git_rev: release/eloquent/rosidl_typesupport_cpp/0.8.0-2
     folder: src/ros-eloquent-rosidl-typesupport-cpp
@@ -387,6 +588,21 @@ source:
   - git_url: https://github.com/ros2-gbp/rosidl_typesupport_fastrtps-release.git
     git_rev: release/eloquent/rosidl_typesupport_fastrtps_cpp/0.8.0-1
     folder: src/ros-eloquent-rosidl-typesupport-fastrtps-cpp
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_interface/0.8.2-1
+    folder: src/ros-eloquent-rosidl-typesupport-interface
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_introspection_c/0.8.2-1
+    folder: src/ros-eloquent-rosidl-typesupport-introspection-c
+  - git_url: https://github.com/ros2-gbp/rosidl-release.git
+    git_rev: release/eloquent/rosidl_typesupport_introspection_cpp/0.8.2-1
+    folder: src/ros-eloquent-rosidl-typesupport-introspection-cpp
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+    git_rev: release/eloquent/rosidl_typesupport_opensplice_c/0.8.1-1
+    folder: src/ros-eloquent-rosidl-typesupport-opensplice-c
+  - git_url: https://github.com/ros2-gbp/rosidl_typesupport_opensplice-release.git
+    git_rev: release/eloquent/rosidl_typesupport_opensplice_cpp/0.8.1-1
+    folder: src/ros-eloquent-rosidl-typesupport-opensplice-cpp
   - git_url: https://github.com/ros2-gbp/rqt_action-release.git
     git_rev: release/eloquent/rqt_action/1.0.1-1
     folder: src/ros-eloquent-rqt-action
@@ -501,6 +717,9 @@ source:
   - git_url: https://github.com/ros2-gbp/teleop_twist_keyboard-release.git
     git_rev: release/eloquent/teleop_twist_keyboard/2.3.1-1
     folder: src/ros-eloquent-teleop-twist-keyboard
+  - git_url: https://github.com/ros2-gbp/test_interface_files-release.git
+    git_rev: release/eloquent/test_interface_files/0.8.0-1
+    folder: src/ros-eloquent-test-interface-files
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
     git_rev: release/eloquent/test_msgs/0.8.0-1
     folder: src/ros-eloquent-test-msgs
@@ -552,6 +771,9 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/trajectory_msgs/0.8.1-1
     folder: src/ros-eloquent-trajectory-msgs
+  - git_url: https://github.com/ros2-gbp/uncrustify_vendor-release.git
+    git_rev: release/eloquent/uncrustify_vendor/1.3.0-1
+    folder: src/ros-eloquent-uncrustify-vendor
   - git_url: https://github.com/ros2-gbp/unique_identifier_msgs-release.git
     git_rev: release/eloquent/unique_identifier_msgs/2.1.0-1
     folder: src/ros-eloquent-unique-identifier-msgs
@@ -588,19 +810,27 @@ outputs:
         - asio
         - assimp
         - boost
+        - catkin_pkg
         - cmake
         - colcon-common-extensions
         - console_bridge
         - eigen
+        - empy
+        - flake8
         - freetype
         - git
+        - gmock
+        - gtest
         - libcurl
+        - mock
         - numpy
         - opencv 3*
         - openssl
+        - pcl
         - pcre
         - pkg-config
         - poco
+        - py-opencv 3*
         - pyqt
         - pytest
         - pytest-mock
@@ -611,6 +841,7 @@ outputs:
         - spdlog
         - tinyxml
         - tinyxml2
+        - uncrustify
         - yaml
         - zlib
       run:
@@ -619,32 +850,44 @@ outputs:
         - catkin_pkg
         - cmake
         - console_bridge
+        - cppcheck
         - cryptography
         - eigen
         - empy
+        - flake8
         - freetype
+        - gmock
+        - gtest
         - ifcfg
+        - lark-parser
         - libcurl
+        - libxml2
         - lxml
         - matplotlib
+        - mock
         - mypy
         - netifaces
         - numpy
         - opencv 3*
         - openssl
+        - pcl
         - pcre
         - pkg-config
         - poco
         - psutil
+        - pydocstyle
         - pydot
         - pyqt
+        - pytest
         - python {{ python }}
         - pyyaml
         - qt
         - rosdistro
+        - setuptools
         - spdlog
         - tinyxml
         - tinyxml2
+        - uncrustify
         - yaml
         - zlib
 

@@ -246,3 +246,7 @@ fastrtps:
   conda-forge: [fast-rtps]
 fastcdr:
   conda-forge: [fast-cdr]
+libpcl-all-dev:
+  conda-forge: [pcl]
+python3-opencv:
+  conda-forge: [py-opencv 3*]
