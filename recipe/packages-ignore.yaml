@@ -4,6 +4,10 @@ rmw_opensplice_cpp:
   conda-forge: []
 rmw_connext_cpp:
   conda-forge: []
+gmock_vendor:
+  conda-forge: []
+gtest_vendor:
+  conda-forge: []
 libyaml_vendor:
   conda-forge: []
 connext_cmake_module:
