@@ -13,6 +13,7 @@ colcon build ^
     --cmake-args ^
      -G Ninja ^
      -DCMAKE_BUILD_TYPE=Release ^
+     -DBUILD_TESTING=OFF ^
      -DPYTHON_EXECUTABLE=%PYTHON%
 if errorlevel 1 exit 1
 
