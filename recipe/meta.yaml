@@ -273,12 +273,6 @@ source:
   - git_url: https://github.com/ros2-gbp/common_interfaces-release.git
     git_rev: release/eloquent/geometry_msgs/0.8.1-1
     folder: src/ros-eloquent-geometry-msgs
-  - git_url: https://github.com/ros2-gbp/googletest-release.git
-    git_rev: release/eloquent/gmock_vendor/1.8.9000-1
-    folder: src/ros-eloquent-gmock-vendor
-  - git_url: https://github.com/ros2-gbp/googletest-release.git
-    git_rev: release/eloquent/gtest_vendor/1.8.9000-1
-    folder: src/ros-eloquent-gtest-vendor
   - git_url: https://github.com/ros2-gbp/vision_opencv-release.git
     git_rev: release/eloquent/image_geometry/2.1.4-1
     folder: src/ros-eloquent-image-geometry
@@ -758,7 +752,6 @@ build:
 
 outputs:
   - name: ros-eloquent-fat-desktop
-    script: bld_colcon_merge.bat
     requirements:
       build:
         - "{{ compiler('cxx') }}"
@@ -851,6 +844,7 @@ outputs:
         - yaml
         - yaml-cpp
         - zlib
+    script: bld_colcon_merge.bat
 
 about:
   home: https://www.ros.org/
@@ -860,4 +854,4 @@ about:
 
 extra:
   recipe-maintainers:
-    - seanyen
+    - ros-forge
