@@ -638,6 +638,8 @@ source:
   - git_url: https://github.com/ros2-gbp/rviz-release.git
     git_rev: release/eloquent/rviz_ogre_vendor/7.0.4-1
     folder: src/ros-eloquent-rviz-ogre-vendor
+    patches:
+      - patch/ros-eloquent-rviz-ogre-vendor.patch
   - git_url: https://github.com/ros2-gbp/rviz-release.git
     git_rev: release/eloquent/rviz_rendering/7.0.4-1
     folder: src/ros-eloquent-rviz-rendering

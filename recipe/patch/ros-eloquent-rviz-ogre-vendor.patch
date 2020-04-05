@@ -1,0 +1,15 @@
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index 6ec835d2..e0e19aea 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -7,8 +7,8 @@ find_package(ament_cmake REQUIRED)
+ set(PACKAGE_VERSION "1.0.0")
+ 
+ if(WIN32)
+-  set(BUILDING_FREETYPE_LOCALLY ON)
+-  set(BUILDING_ZLIB_LOCALLY ON)
++  set(BUILDING_FREETYPE_LOCALLY OFF)
++  set(BUILDING_ZLIB_LOCALLY OFF)
+ else()
+   set(BUILDING_FREETYPE_LOCALLY OFF)
+   set(BUILDING_ZLIB_LOCALLY OFF)
