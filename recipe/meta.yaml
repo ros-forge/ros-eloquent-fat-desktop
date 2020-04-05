@@ -1,6 +1,6 @@
 package:
   name: ros
-  version: 2020.04.04
+  version: 2020.04.05
 
 source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
@@ -766,6 +766,8 @@ outputs:
         - cmake
         - colcon-common-extensions
         - console_bridge
+        - cppcheck
+        - cryptography
         - eigen
         - empy
         - flake8
@@ -773,8 +775,15 @@ outputs:
         - git
         - gmock
         - gtest
+        - ifcfg
+        - lark-parser
         - libcurl
+        - libxml2
+        - lxml
+        - matplotlib
         - mock
+        - mypy
+        - netifaces
         - numpy
         - opencv 3*
         - openssl
@@ -782,13 +791,17 @@ outputs:
         - pcre
         - pkg-config
         - poco
+        - psutil
         - py-opencv 3*
+        - pydocstyle
+        - pydot
         - pyqt
         - pytest
         - pytest-mock
         - python {{ python }}
         - pyyaml
         - qt
+        - rosdistro
         - setuptools
         - spdlog
         - tinyxml
