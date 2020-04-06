@@ -14,5 +14,6 @@ packages_skip_by_deps:
 
 packages_select_by_deps:
   - desktop
+  - ros_workspace
 
 patch_dir: patch

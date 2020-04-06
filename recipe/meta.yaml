@@ -512,6 +512,11 @@ source:
   - git_url: https://github.com/ros2-gbp/ros_testing-release.git
     git_rev: release/eloquent/ros_testing/0.2.0-1
     folder: src/ros-eloquent-ros-testing
+  - git_url: https://github.com/ros2-gbp/ros_workspace-release.git
+    git_rev: release/eloquent/ros_workspace/0.8.0-1
+    folder: src/ros-eloquent-ros-workspace
+    patches:
+      - patch/ros-eloquent-ros-workspace.patch
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
     git_rev: release/eloquent/rosgraph_msgs/0.8.0-1
     folder: src/ros-eloquent-rosgraph-msgs
@@ -749,7 +754,7 @@ source:
       - patch/ros-eloquent-yaml-cpp-vendor.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not win64]
 
 outputs:
