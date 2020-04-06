@@ -1,6 +1,6 @@
 package:
   name: ros
-  version: 2020.04.05
+  version: 2020.04.06
 
 source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
@@ -628,6 +628,8 @@ source:
   - git_url: https://github.com/ros2-gbp/rviz-release.git
     git_rev: release/eloquent/rviz2/7.0.4-1
     folder: src/ros-eloquent-rviz2
+    patches:
+      - patch/ros-eloquent-rviz2.patch
   - git_url: https://github.com/ros2-gbp/rviz-release.git
     git_rev: release/eloquent/rviz_assimp_vendor/7.0.4-1
     folder: src/ros-eloquent-rviz-assimp-vendor
