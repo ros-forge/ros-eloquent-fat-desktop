@@ -753,7 +753,7 @@ source:
       - patch/ros-eloquent-yaml-cpp-vendor.patch
 
 build:
-  number: 0
+  number: 1
   skip: true  # [not win64]
 
 outputs:
@@ -816,6 +816,7 @@ outputs:
         - yaml
         - yaml-cpp
         - zlib
+        - gazebo
       run:
         - assimp
         - boost
@@ -863,6 +864,7 @@ outputs:
         - yaml
         - yaml-cpp
         - zlib
+        - gazebo
     script: bld_colcon_merge.bat
 
 about:
