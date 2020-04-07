@@ -7,7 +7,7 @@ python-rospkg:
 python3-rospkg:
   conda-forge: [rospkg]
 boost:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 python-argparse:
   conda-forge: []
 python-catkin-pkg:
@@ -65,11 +65,11 @@ python3-catkin-pkg-modules:
 python3-rosdep-modules:
   conda-forge: [rosdep]
 libboost-system-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libboost-date-time-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libboost-thread-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libpoco-dev:
   conda-forge: [poco]
 python-gnupg:
@@ -193,19 +193,19 @@ sdl-image:
 graphicsmagick:
   conda-forge: [graphicsmagick]
 libboost-program-options:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 sdl:
   conda-forge: [sdl2]
 libzmq3-dev:
   conda-forge: [zeromq]
 libboost-program-options-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libboost-regex-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libboost-chrono-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 libboost-filesystem-dev:
-  conda-forge: [boost]
+  conda-forge: [boost 1.72.*]
 python3-paramiko:
   conda-forge: [paramiko]
 python3-defusedxml:
