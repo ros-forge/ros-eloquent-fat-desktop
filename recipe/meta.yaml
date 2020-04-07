@@ -753,7 +753,7 @@ source:
       - patch/ros-eloquent-yaml-cpp-vendor.patch
 
 build:
-  number: 2
+  number: 0
   skip: true  # [not win64]
 
 outputs:
@@ -766,7 +766,7 @@ outputs:
         - cmake
       host:
         - asio
-        - assimp
+        - assimp 4.*
         - boost 1.72.*
         - catkin_pkg
         - cmake
@@ -817,7 +817,7 @@ outputs:
         - yaml-cpp
         - zlib
       run:
-        - assimp
+        - assimp 4.*
         - boost 1.72.*
         - catkin_pkg
         - cmake

@@ -151,7 +151,7 @@ openssl:
 eigen:
   conda-forge: [eigen]
 assimp:
-  conda-forge: [assimp]
+  conda-forge: [assimp 4.*]
 libqt5-opengl:
   conda-forge: [qt]
 libqt5-widgets:
