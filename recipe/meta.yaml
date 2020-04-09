@@ -1,6 +1,6 @@
 package:
   name: ros
-  version: 2020.04.07
+  version: 2020.04.09
 
 source:
   - git_url: https://github.com/ros2-gbp/rcl_interfaces-release.git
