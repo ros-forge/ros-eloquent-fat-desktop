@@ -1,5 +1,3 @@
-boost:
-- 1.70.0
 c_compiler:
 - vs2017
 channel_sources:
@@ -19,8 +17,6 @@ numpy:
 openssl:
 - 1.1.1
 pin_run_as_build:
-  boost:
-    max_pin: x.x.x
   freetype:
     max_pin: x
   libcurl:
